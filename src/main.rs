@@ -16,3 +16,10 @@ enum Arah{
     selatan,
     utara,
 }
+
+enum StatusHTTP {
+     Ok,
+     NotFound,
+     InternalServerError,
+     Unauthorized,
+}
